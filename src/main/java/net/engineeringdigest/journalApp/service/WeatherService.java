@@ -18,7 +18,7 @@ public class WeatherService {
 
     @Value("${weather_api_key}")
     private String apikey;
-//    private static final  String apikey = "baba90ef877fb12e20281d0fbc0fc11a";
+    //private static final  String apikey = "baba90ef877fb12e20281d0fbc0fc11a";
 
     @Autowired
     private AppCache appCache;
